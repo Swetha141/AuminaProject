@@ -1,0 +1,12 @@
+URL = https://auminauat.uniphore.com:8068/AuminaUI_2_9_2_MIG/
+
+Path_TestData = D:\\Selenium_SVN\\src\\testData\\
+
+File_TestData = usersdata.xlsx
+
+DriverPath=D:/Selenium_SVN/Drivers/chromedriver.exe
+DriverPath_firefox = D:/Selenium_SVN/Drivers/geckodriver.exe
+AdminUsername=Admin
+AdminPassword=Uniphore@123
+AnalystUserName=Analyst
+AnalystPassword=Uniphore@123

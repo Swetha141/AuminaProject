@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browsername" value="chrome"/>
+  <test name="Test">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="testCases.UsersTestCases"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="testCases.UsersTestCases">
+        <methods>
+          <include name="verify_Navigate_to_Add_user_page_Test"/>
+          <include name="clk_User_Test"/>
+          <include name="clk_adduser_nulldata_Test"/>
+          <include name="adduser_savechanges_btn_Test"/>
+          <include name="adduser_Discardchanges_btn"/>
+          <include name="navigation_scrn_Test"/>
+          <include name="afterMethod"/>
+          <include name="edit_User_Test"/>
+          <include name="beforeMethod"/>
+          <include name="clk_defineusers_Test"/>
+          <include name="downloadFile_Test"/>
+          <include name="Role_getElements_List_Test"/>
+          <include name="edittestdynamic"/>
+          <include name="uploadFile_Test"/>
+          <include name="verify_Add_User_Test"/>
+          <include name="field_Validation_Test"/>
+          <include name="verify_home_page_title_and_setup_entities_module_Test"/>
+          <include name="delete_User_Test"/>
+          <include name="homeIcon_clk_Test"/>
+        </methods>
+      </class> <!-- testCases.UsersTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
